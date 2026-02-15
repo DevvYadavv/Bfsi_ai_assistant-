@@ -1,0 +1,802 @@
+[
+    {
+        "instruction": "Check loan eligibility",
+        "input": "I have a salary of 50000 and want a personal loan.",
+        "output": "Based on your salary of 50,000, you are eligible for a personal loan of up to 10 lakhs. Interest rates start at 10.5% p.a."
+    },
+    {
+        "instruction": "Check loan application status",
+        "input": "What is the status of my loan application ID 12345?",
+        "output": "Your loan application (ID: 12345) is currently under review. You can expect an update within 24 hours."
+    },
+    {
+        "instruction": "EMI Calculation",
+        "input": "Calculate EMI for 5 lakhs loan for 3 years at 12% interest.",
+        "output": "For a loan of 5 lakhs at 12% interest for 3 years, your monthly EMI would be approximately Rs. 16,607."
+    },
+    {
+        "instruction": "Credit Card Limit Increase",
+        "input": "How can I increase my credit card limit?",
+        "output": "You can request a credit limit increase through our mobile app under 'Card Settings' or by sending an SMS 'LIMIT <Last 4 digits>' to 56767."
+    },
+    {
+        "instruction": "Report Fraud",
+        "input": "I suspect a fraudulent transaction on my account.",
+        "output": "Please block your card immediately using the mobile app or call our fraud helpline at 1800-123-4567. We will investigate the transaction."
+    },
+    {
+        "instruction": "Open Savings Account",
+        "input": "What documents do I need to open a savings account?",
+        "output": "To open a savings account, you need a valid ID proof (Aadhaar/PAN), address proof, and a passport-sized photograph. You can apply online or visit our nearest branch."
+    },
+    {
+        "instruction": "Fixed Deposit Rates",
+        "input": "What is the interest rate for a 1-year FD?",
+        "output": "Our current interest rate for a 1-year Fixed Deposit is 6.5% p.a. for general citizens and 7.0% p.a. for senior citizens."
+    },
+    {
+        "instruction": "Block Debit Card",
+        "input": "I lost my debit card, how do I block it?",
+        "output": "You can block your debit card instantly via our mobile app, net banking, or by creating an SMS 'BLOCK <Last 4 digits>' to 56767."
+    },
+    {
+        "instruction": "Reset Net Banking Password",
+        "input": "I forgot my net banking password.",
+        "output": "You can reset your net banking password by clicking on 'Forgot Password' on the login page and verifying your details using an OTP sent to your registered mobile number."
+    },
+    {
+        "instruction": "Update Address",
+        "input": "How can I change my registered address?",
+        "output": "To update your address, please visit your nearest branch with valid address proof or update it via Net Banking under the 'My Profile' section."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 50,000?",
+        "output": "Yes, you can apply for a personal loan of 50,000. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 1 lakh?",
+        "output": "Yes, you can apply for a personal loan of 1 lakh. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 5 lakhs?",
+        "output": "Yes, you can apply for a personal loan of 5 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 10 lakhs?",
+        "output": "Yes, you can apply for a personal loan of 10 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 20 lakhs?",
+        "output": "Yes, you can apply for a personal loan of 20 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check personal loan eligibility",
+        "input": "Can I get a personal loan for 50 lakhs?",
+        "output": "Yes, you can apply for a personal loan of 50 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 50,000?",
+        "output": "Yes, you can apply for a home loan of 50,000. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 1 lakh?",
+        "output": "Yes, you can apply for a home loan of 1 lakh. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 5 lakhs?",
+        "output": "Yes, you can apply for a home loan of 5 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 10 lakhs?",
+        "output": "Yes, you can apply for a home loan of 10 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 20 lakhs?",
+        "output": "Yes, you can apply for a home loan of 20 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check home loan eligibility",
+        "input": "Can I get a home loan for 50 lakhs?",
+        "output": "Yes, you can apply for a home loan of 50 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 50,000?",
+        "output": "Yes, you can apply for a car loan of 50,000. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 1 lakh?",
+        "output": "Yes, you can apply for a car loan of 1 lakh. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 5 lakhs?",
+        "output": "Yes, you can apply for a car loan of 5 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 10 lakhs?",
+        "output": "Yes, you can apply for a car loan of 10 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 20 lakhs?",
+        "output": "Yes, you can apply for a car loan of 20 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check car loan eligibility",
+        "input": "Can I get a car loan for 50 lakhs?",
+        "output": "Yes, you can apply for a car loan of 50 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 50,000?",
+        "output": "Yes, you can apply for a education loan of 50,000. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 1 lakh?",
+        "output": "Yes, you can apply for a education loan of 1 lakh. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 5 lakhs?",
+        "output": "Yes, you can apply for a education loan of 5 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 10 lakhs?",
+        "output": "Yes, you can apply for a education loan of 10 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 20 lakhs?",
+        "output": "Yes, you can apply for a education loan of 20 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check education loan eligibility",
+        "input": "Can I get a education loan for 50 lakhs?",
+        "output": "Yes, you can apply for a education loan of 50 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 50,000?",
+        "output": "Yes, you can apply for a gold loan of 50,000. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 1 lakh?",
+        "output": "Yes, you can apply for a gold loan of 1 lakh. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 5 lakhs?",
+        "output": "Yes, you can apply for a gold loan of 5 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 10 lakhs?",
+        "output": "Yes, you can apply for a gold loan of 10 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 20 lakhs?",
+        "output": "Yes, you can apply for a gold loan of 20 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Check gold loan eligibility",
+        "input": "Can I get a gold loan for 50 lakhs?",
+        "output": "Yes, you can apply for a gold loan of 50 lakhs. Eligibility depends on your income and credit score. Please provide your monthly income for a detailed check."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50,000 for 1 year?",
+        "output": "For a loan of 50,000 for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50,000 for 3 years?",
+        "output": "For a loan of 50,000 for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50,000 for 5 years?",
+        "output": "For a loan of 50,000 for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50,000 for 10 years?",
+        "output": "For a loan of 50,000 for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50,000 for 20 years?",
+        "output": "For a loan of 50,000 for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 1 lakh for 1 year?",
+        "output": "For a loan of 1 lakh for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 1 lakh for 3 years?",
+        "output": "For a loan of 1 lakh for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 1 lakh for 5 years?",
+        "output": "For a loan of 1 lakh for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 1 lakh for 10 years?",
+        "output": "For a loan of 1 lakh for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 1 lakh for 20 years?",
+        "output": "For a loan of 1 lakh for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 5 lakhs for 1 year?",
+        "output": "For a loan of 5 lakhs for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 5 lakhs for 3 years?",
+        "output": "For a loan of 5 lakhs for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 5 lakhs for 5 years?",
+        "output": "For a loan of 5 lakhs for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 5 lakhs for 10 years?",
+        "output": "For a loan of 5 lakhs for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 5 lakhs for 20 years?",
+        "output": "For a loan of 5 lakhs for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 10 lakhs for 1 year?",
+        "output": "For a loan of 10 lakhs for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 10 lakhs for 3 years?",
+        "output": "For a loan of 10 lakhs for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 10 lakhs for 5 years?",
+        "output": "For a loan of 10 lakhs for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 10 lakhs for 10 years?",
+        "output": "For a loan of 10 lakhs for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 10 lakhs for 20 years?",
+        "output": "For a loan of 10 lakhs for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 20 lakhs for 1 year?",
+        "output": "For a loan of 20 lakhs for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 20 lakhs for 3 years?",
+        "output": "For a loan of 20 lakhs for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 20 lakhs for 5 years?",
+        "output": "For a loan of 20 lakhs for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 20 lakhs for 10 years?",
+        "output": "For a loan of 20 lakhs for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 20 lakhs for 20 years?",
+        "output": "For a loan of 20 lakhs for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50 lakhs for 1 year?",
+        "output": "For a loan of 50 lakhs for 1 year, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50 lakhs for 3 years?",
+        "output": "For a loan of 50 lakhs for 3 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50 lakhs for 5 years?",
+        "output": "For a loan of 50 lakhs for 5 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50 lakhs for 10 years?",
+        "output": "For a loan of 50 lakhs for 10 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Calculate EMI",
+        "input": "What is the EMI for 50 lakhs for 20 years?",
+        "output": "For a loan of 50 lakhs for 20 years, the EMI depends on the interest rate. At a standard 10% rate, please use our EMI calculator for precise figures."
+    },
+    {
+        "instruction": "Transaction Issue",
+        "input": "My transaction failed.",
+        "output": "If your transaction is failed, please wait for 24 hours for auto-reversal. If not resolved, raise a dispute in the app."
+    },
+    {
+        "instruction": "Transaction Issue",
+        "input": "My transaction pending.",
+        "output": "If your transaction is pending, please wait for 24 hours for auto-reversal. If not resolved, raise a dispute in the app."
+    },
+    {
+        "instruction": "Transaction Issue",
+        "input": "My transaction double debited.",
+        "output": "If your transaction is double debited, please wait for 24 hours for auto-reversal. If not resolved, raise a dispute in the app."
+    },
+    {
+        "instruction": "Transaction Issue",
+        "input": "My transaction unrecognized.",
+        "output": "If your transaction is unrecognized, please wait for 24 hours for auto-reversal. If not resolved, raise a dispute in the app."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "What are the branch timings?",
+        "output": "Our branches are open from 10:00 AM to 4:00 PM, Monday to Saturday (except 2nd and 4th Saturdays)."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, What are the branch timings?",
+        "output": "Our branches are open from 10:00 AM to 4:00 PM, Monday to Saturday (except 2nd and 4th Saturdays)."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, What are the branch timings?",
+        "output": "Our branches are open from 10:00 AM to 4:00 PM, Monday to Saturday (except 2nd and 4th Saturdays)."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, What are the branch timings?",
+        "output": "Our branches are open from 10:00 AM to 4:00 PM, Monday to Saturday (except 2nd and 4th Saturdays)."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Do you offer car insurance?",
+        "output": "Yes, we offer comprehensive car insurance with accidental cover."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, Do you offer car insurance?",
+        "output": "Yes, we offer comprehensive car insurance with accidental cover."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, Do you offer car insurance?",
+        "output": "Yes, we offer comprehensive car insurance with accidental cover."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, Do you offer car insurance?",
+        "output": "Yes, we offer comprehensive car insurance with accidental cover."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "How to apply for a checkbook?",
+        "output": "You can request a new checkbook via Net Banking, ATM, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, How to apply for a checkbook?",
+        "output": "You can request a new checkbook via Net Banking, ATM, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, How to apply for a checkbook?",
+        "output": "You can request a new checkbook via Net Banking, ATM, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, How to apply for a checkbook?",
+        "output": "You can request a new checkbook via Net Banking, ATM, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "What is the minimum balance for savings account?",
+        "output": "The minimum average monthly balance required is Rs. 10,000 for metro branches."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, What is the minimum balance for savings account?",
+        "output": "The minimum average monthly balance required is Rs. 10,000 for metro branches."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, What is the minimum balance for savings account?",
+        "output": "The minimum average monthly balance required is Rs. 10,000 for metro branches."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, What is the minimum balance for savings account?",
+        "output": "The minimum average monthly balance required is Rs. 10,000 for metro branches."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Is my money safe?",
+        "output": "Yes, your deposits are insured up to Rs. 5 lakhs by DICGC."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, Is my money safe?",
+        "output": "Yes, your deposits are insured up to Rs. 5 lakhs by DICGC."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, Is my money safe?",
+        "output": "Yes, your deposits are insured up to Rs. 5 lakhs by DICGC."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, Is my money safe?",
+        "output": "Yes, your deposits are insured up to Rs. 5 lakhs by DICGC."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "How do I enable international usage?",
+        "output": "You can enable international usage on your card through the 'Card Controls' section in our mobile app."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, How do I enable international usage?",
+        "output": "You can enable international usage on your card through the 'Card Controls' section in our mobile app."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, How do I enable international usage?",
+        "output": "You can enable international usage on your card through the 'Card Controls' section in our mobile app."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, How do I enable international usage?",
+        "output": "You can enable international usage on your card through the 'Card Controls' section in our mobile app."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "What is the customer care number?",
+        "output": "Our 24/7 customer care number is 1800-123-4567."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, What is the customer care number?",
+        "output": "Our 24/7 customer care number is 1800-123-4567."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, What is the customer care number?",
+        "output": "Our 24/7 customer care number is 1800-123-4567."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, What is the customer care number?",
+        "output": "Our 24/7 customer care number is 1800-123-4567."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can I withdraw cash without a card?",
+        "output": "Yes, you can use our Cardless Cash Withdrawal feature at enabled ATMs."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, Can I withdraw cash without a card?",
+        "output": "Yes, you can use our Cardless Cash Withdrawal feature at enabled ATMs."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, Can I withdraw cash without a card?",
+        "output": "Yes, you can use our Cardless Cash Withdrawal feature at enabled ATMs."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, Can I withdraw cash without a card?",
+        "output": "Yes, you can use our Cardless Cash Withdrawal feature at enabled ATMs."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "How to link Aadhaar?",
+        "output": "Link your Aadhaar via Net Banking, SMS, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, How to link Aadhaar?",
+        "output": "Link your Aadhaar via Net Banking, SMS, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, How to link Aadhaar?",
+        "output": "Link your Aadhaar via Net Banking, SMS, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, How to link Aadhaar?",
+        "output": "Link your Aadhaar via Net Banking, SMS, or by visiting a branch."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "What is UPI limit?",
+        "output": "The daily UPI transaction limit is Rs. 1 lakh."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Please tell me, What is UPI limit?",
+        "output": "The daily UPI transaction limit is Rs. 1 lakh."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "I want to know, What is UPI limit?",
+        "output": "The daily UPI transaction limit is Rs. 1 lakh."
+    },
+    {
+        "instruction": "General Inquiry",
+        "input": "Can you say, What is UPI limit?",
+        "output": "The daily UPI transaction limit is Rs. 1 lakh."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 66558?",
+        "output": "Application 66558 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 15559?",
+        "output": "Application 15559 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 85247?",
+        "output": "Application 85247 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 12722?",
+        "output": "Application 12722 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 20609?",
+        "output": "Application 20609 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 93401?",
+        "output": "Application 93401 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 82989?",
+        "output": "Application 82989 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 16195?",
+        "output": "Application 16195 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 60462?",
+        "output": "Application 60462 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 56345?",
+        "output": "Application 56345 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 54547?",
+        "output": "Application 54547 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 84390?",
+        "output": "Application 84390 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 10386?",
+        "output": "Application 10386 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 20229?",
+        "output": "Application 20229 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 82036?",
+        "output": "Application 82036 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 28651?",
+        "output": "Application 28651 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 55327?",
+        "output": "Application 55327 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 57084?",
+        "output": "Application 57084 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 76993?",
+        "output": "Application 76993 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 27133?",
+        "output": "Application 27133 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 67812?",
+        "output": "Application 67812 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 90809?",
+        "output": "Application 90809 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 39116?",
+        "output": "Application 39116 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 70540?",
+        "output": "Application 70540 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 33729?",
+        "output": "Application 33729 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 53166?",
+        "output": "Application 53166 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 50410?",
+        "output": "Application 50410 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 44146?",
+        "output": "Application 44146 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 60727?",
+        "output": "Application 60727 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 14278?",
+        "output": "Application 14278 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 81869?",
+        "output": "Application 81869 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 86720?",
+        "output": "Application 86720 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 27454?",
+        "output": "Application 27454 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 87774?",
+        "output": "Application 87774 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 15237?",
+        "output": "Application 15237 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 61963?",
+        "output": "Application 61963 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 19223?",
+        "output": "Application 19223 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 25945?",
+        "output": "Application 25945 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 53794?",
+        "output": "Application 53794 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 38312?",
+        "output": "Application 38312 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 52136?",
+        "output": "Application 52136 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 87126?",
+        "output": "Application 87126 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 55199?",
+        "output": "Application 55199 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 81139?",
+        "output": "Application 81139 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 58949?",
+        "output": "Application 58949 is currently processing."
+    },
+    {
+        "instruction": "Check Application Status",
+        "input": "Status of application 41753?",
+        "output": "Application 41753 is currently processing."
+    }
+]
